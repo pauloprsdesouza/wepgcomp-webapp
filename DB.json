@@ -1,0 +1,130 @@
+{
+  "events": {
+    "id": 1,
+    "name": "WEPGCOMP 2022"
+  },
+  "schedule": [{
+      "id": 1,
+      "day": "08/11/2021 - Segunda-feira",
+      "sessions": [{
+          "id": 1,
+          "name": "Sessão 01",
+          "researches": [{
+              "id": 1,
+              "title": "Explorando o Capital Social em Redes Sociais para Sistemas de Recomendação",
+              "sworn": "Frederico Araújo Durão",
+              "date": "08/11/2021 08:20",
+              "resume": "Even retired, older adults are still in good health and willing to work. This willingness to work may be due to financial reasons or a desire to remain active, participative, or feeling useful to society. It is important to encourage older adults to remain active, both mentally and physically, to promote their well-being and, at the same time, contribute to society and feel needed. Crowdsourcing has the potential to help older adults to use their knowledge and experience to contribute to their communities. For successful crowdsourcing, people need to participate, and to participate, they need to be motivated. The objective of this study is to investigate older adults’ motivations to execute crowdsourcing micro-task. After an exploratory study to acquire knowledge on motivation in crowdsourcing focused on older adults, we conducted a pilot study and two surveys. Through the pilot study and surveys, we identified motivational factors that encouraged older adults to participate in online crowdsourcing micro-tasks. We found motivations such as auditory, visual, and emotional stimuli. Our empirical results indicate that older adults are motivated by dynamic tasks, which stimulate their curiosity, increase their knowledge and skills, tasks that help them to care for their physical and mental health and, mainly, by tasks related to altruistic causes.",
+              "student": {
+                "id": 1,
+                "name": "Paulo Roberto de Souza",
+                "mat": 123456,
+                "qualification": "01/11/2021",
+                "scholarshipHolder": "false",
+                "course": {
+                  "name": "Doutorado em Ciência da Computação",
+                  "actualMonth": "33",
+                  "researchLine": "Sistemas de Recomendação"
+                }
+              }
+            },
+            {
+              "active": 1,
+              "id": 10,
+              "title": "Explorando o Capital Social em Redes Sociais para Sistemas de Recomendação",
+              "sworn": "Frederico Araújo Durão",
+              "date": "08/11/2021 08:20",
+              "resume": "Even retired, older adults are still in good health and willing to work. This willingness to work may be due to financial reasons or a desire to remain active, participative, or feeling useful to society. It is important to encourage older adults to remain active, both mentally and physically, to promote their well-being and, at the same time, contribute to society and feel needed. Crowdsourcing has the potential to help older adults to use their knowledge and experience to contribute to their communities. For successful crowdsourcing, people need to participate, and to participate, they need to be motivated. The objective of this study is to investigate older adults’ motivations to execute crowdsourcing micro-task. After an exploratory study to acquire knowledge on motivation in crowdsourcing focused on older adults, we conducted a pilot study and two surveys. Through the pilot study and surveys, we identified motivational factors that encouraged older adults to participate in online crowdsourcing micro-tasks. We found motivations such as auditory, visual, and emotional stimuli. Our empirical results indicate that older adults are motivated by dynamic tasks, which stimulate their curiosity, increase their knowledge and skills, tasks that help them to care for their physical and mental health and, mainly, by tasks related to altruistic causes.",
+              "student": {
+                "id": 19,
+                "name": "Paulo Roberto de Souza",
+                "mat": 123456,
+                "qualification": "01/11/2021",
+                "scholarshipHolder": "false",
+                "course": {
+                  "name": "Doutorado em Ciência da Computação",
+                  "actualMonth": "33",
+                  "researchLine": "Sistemas de Recomendação"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Sessão 02",
+          "researches": [{
+            "id": 2,
+            "title": "Explorando o Capital Social em Redes Sociais para Sistemas de Recomendação",
+            "sworn": "Frederico Araújo Durão",
+            "date": "08/11/2021 08:20",
+            "resume": "Even retired, older adults are still in good health and willing to work. This willingness to work may be due to financial reasons or a desire to remain active, participative, or feeling useful to society. It is important to encourage older adults to remain active, both mentally and physically, to promote their well-being and, at the same time, contribute to society and feel needed. Crowdsourcing has the potential to help older adults to use their knowledge and experience to contribute to their communities. For successful crowdsourcing, people need to participate, and to participate, they need to be motivated. The objective of this study is to investigate older adults’ motivations to execute crowdsourcing micro-task. After an exploratory study to acquire knowledge on motivation in crowdsourcing focused on older adults, we conducted a pilot study and two surveys. Through the pilot study and surveys, we identified motivational factors that encouraged older adults to participate in online crowdsourcing micro-tasks. We found motivations such as auditory, visual, and emotional stimuli. Our empirical results indicate that older adults are motivated by dynamic tasks, which stimulate their curiosity, increase their knowledge and skills, tasks that help them to care for their physical and mental health and, mainly, by tasks related to altruistic causes.",
+            "student": {
+              "id": 2,
+              "name": "Paulo Roberto de Souza",
+              "mat": 123456,
+              "qualification": "01/11/2021",
+              "scholarshipHolder": "false",
+              "course": {
+                "name": "Doutorado em Ciência da Computação",
+                "actualMonth": "33",
+                "researchLine": "Sistemas de Recomendação"
+              }
+            }
+          }]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "day": "09/11/2021 - Terça-feira",
+      "sessions": [{
+          "id": 3,
+          "name": "Sessão 03",
+          "researches": [{
+            "id": 3,
+            "title": "Explorando o Capital Social em Redes Sociais para Sistemas de Recomendação",
+            "sworn": "Frederico Araújo Durão",
+            "date": "08/11/2021 08:20",
+            "resume": "Even retired, older adults are still in good health and willing to work. This willingness to work may be due to financial reasons or a desire to remain active, participative, or feeling useful to society. It is important to encourage older adults to remain active, both mentally and physically, to promote their well-being and, at the same time, contribute to society and feel needed. Crowdsourcing has the potential to help older adults to use their knowledge and experience to contribute to their communities. For successful crowdsourcing, people need to participate, and to participate, they need to be motivated. The objective of this study is to investigate older adults’ motivations to execute crowdsourcing micro-task. After an exploratory study to acquire knowledge on motivation in crowdsourcing focused on older adults, we conducted a pilot study and two surveys. Through the pilot study and surveys, we identified motivational factors that encouraged older adults to participate in online crowdsourcing micro-tasks. We found motivations such as auditory, visual, and emotional stimuli. Our empirical results indicate that older adults are motivated by dynamic tasks, which stimulate their curiosity, increase their knowledge and skills, tasks that help them to care for their physical and mental health and, mainly, by tasks related to altruistic causes.",
+            "student": {
+              "id": 3,
+              "name": "Paulo Roberto de Souza",
+              "mat": 123456,
+              "qualification": "01/11/2021",
+              "scholarshipHolder": "false",
+              "course": {
+                "name": "Doutorado em Ciência da Computação",
+                "actualMonth": "33",
+                "researchLine": "Sistemas de Recomendação"
+              }
+            }
+          }]
+        },
+        {
+          "id": 4,
+          "name": "Sessão 04",
+          "researches": [{
+            "id": 4,
+            "title": "Explorando o Capital Social em Redes Sociais para Sistemas de Recomendação",
+            "sworn": "Frederico Araújo Durão",
+            "date": "08/11/2021 08:20",
+            "resume": "Even retired, older adults are still in good health and willing to work. This willingness to work may be due to financial reasons or a desire to remain active, participative, or feeling useful to society. It is important to encourage older adults to remain active, both mentally and physically, to promote their well-being and, at the same time, contribute to society and feel needed. Crowdsourcing has the potential to help older adults to use their knowledge and experience to contribute to their communities. For successful crowdsourcing, people need to participate, and to participate, they need to be motivated. The objective of this study is to investigate older adults’ motivations to execute crowdsourcing micro-task. After an exploratory study to acquire knowledge on motivation in crowdsourcing focused on older adults, we conducted a pilot study and two surveys. Through the pilot study and surveys, we identified motivational factors that encouraged older adults to participate in online crowdsourcing micro-tasks. We found motivations such as auditory, visual, and emotional stimuli. Our empirical results indicate that older adults are motivated by dynamic tasks, which stimulate their curiosity, increase their knowledge and skills, tasks that help them to care for their physical and mental health and, mainly, by tasks related to altruistic causes.",
+            "student": {
+              "id": 4,
+              "name": "Paulo Roberto de Souza",
+              "mat": 123456,
+              "qualification": "01/11/2021",
+              "scholarshipHolder": "false",
+              "course": {
+                "name": "Doutorado em Ciência da Computação",
+                "actualMonth": "33",
+                "researchLine": "Sistemas de Recomendação"
+              }
+            }
+          }]
+        }
+      ]
+    }
+  ]
+}

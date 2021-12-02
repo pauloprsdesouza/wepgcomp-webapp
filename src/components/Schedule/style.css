@@ -1,0 +1,13 @@
+.span-line-break {
+    display: block;
+}
+
+.card-text {
+    color: hsl(0, 0%, 13%) !important;
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
