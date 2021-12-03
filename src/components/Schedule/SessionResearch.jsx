@@ -1,15 +1,21 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import ModalEvaluation from '../Evaluation/ModalEvaluation';
+
 
 function SessionResearch({ researches }) {
     const [items, setItems] = useState(researches);
 
-    function updateStatus(research) {
+    function _updateStatus(research) {
         research.active = !research.active;
         setItems([...items]);
+        console.log(1);
     }
 
-    function teste(research) {
-        return research.active ? research.resume.substr(0, 300) : research.resume;
+    function _getResume(research) {
+        if (!research.active)
+            return research.resume.substr(0, 300)
+        else
+            return research.resume;
     }
 
     return (
@@ -22,7 +28,7 @@ function SessionResearch({ researches }) {
                                 <p className="card-text mb-2">{research.title}</p>
                             </blockquote>
                             <figcaption className="blockquote-footer">
-                            <b>Linha de Pesquisa</b>: {research.student.course.researchLine}
+                                <b>Linha de Pesquisa</b>: {research.student.course.researchLine}
                             </figcaption>
                         </figure>
                         <div className="mb-3 text-muted">
@@ -31,16 +37,17 @@ function SessionResearch({ researches }) {
                             <span className="span-line-break"></span>
                         </div>
                         <p className="text-justify text-muted">
-                            {teste(research)}
-                            <a type="button" onClick={() => {
-                                updateStatus(research)
+                            {_getResume(research)}
+                            <button type="button" onClick={() => {
+                                _updateStatus(research)
                             }} className="btn btn-link btn-sm">
                                 {
-                                    research.active ? "Ver mais" : "Ver menos"
+                                    research.active ? "Ver menos" : "Ver mais"
                                 }
-                            </a>
+                            </button>
                         </p>
-                        <button className="btn btn-outline-secondary btn-sm">Avaliar o trabalho</button>
+                        <button className="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target={`#modal${research.id}`}>Avaliar o trabalho</button>
+                        <ModalEvaluation research={research}/>
                     </div>
                 </div>
             ))}

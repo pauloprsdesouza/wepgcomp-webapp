@@ -6,7 +6,7 @@ function ScheduleSession({ sessions }) {
         <>
             {sessions.map((session, index) => (
                 <div key={session.id}>
-                    <h4 className={`mb-3 ${index == sessions.length - 1 ? "mt-5" : ""}`}>{session.name}</h4>
+                    <h4 className={`mb-3 ${index === sessions.length - 1 ? "mt-5" : ""}`}>{session.name}</h4>
                     <SessionResearch researches={session.researches} />
                 </div>
             ))}

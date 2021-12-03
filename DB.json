@@ -1,4 +1,12 @@
 {
+  "submissions": [
+    {
+      "id": 1,
+      "title": "Explorando o Capital Social em Redes Sociais para Sistemas de Recomendação",
+      "status": "Published",
+      "submitedAt": "08/02/2021 08:30"
+    }
+  ],
   "events": {
     "id": 1,
     "name": "WEPGCOMP 2022"

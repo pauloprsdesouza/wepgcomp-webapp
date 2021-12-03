@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function AppBar() {
 
@@ -14,10 +15,10 @@ function AppBar() {
           </a>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">Programação</a>
+              <Link className="nav-link active" aria-current="page" to="/">Programação</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/">Submissão</a>
+              <Link className="nav-link" aria-current="page" to="/submission">Submissão</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="/">Minhas Avaliações</a>
